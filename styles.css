@@ -32,5 +32,25 @@ table{
 body{
 	background-image: url(back4.jpg);
 	background-size: 100%;
-	background-repeat: no-repeat;
+}
+ul{
+	list-style-type: none;
+	background-color: #d1c2a3;
+	overflow: hidden;
+}
+li a{
+	float: left;
+	display: block;
+	width: 50px;
+	background-color: #948566;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	color: #000000;
+}
+li a:hover{
+	background-color: #79684c;
+}
+.active{
+	border-bottom: 2px dashed #332b17;
 }
